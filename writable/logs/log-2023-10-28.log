@@ -1,0 +1,34 @@
+ERROR - 2023-10-28 23:30:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`descripcion` text NULL,
+	`imagen` varchar NOT NULL,
+	`precio` float ' at line 3 in C:\Users\Dulce Guzmán\Documents\apirest\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Dulce Guzmán\Documents\apirest\app\Database\Migrations\2023-10-28-223519_Productos.php(25): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Dulce Guzmán\Documents\apirest\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Dulce Guzmán\Documents\apirest\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Dulce Guzmán\Documents\apirest\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Dulce Guzmán\Documents\apirest\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-10-28 23:30:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL,
+	`descripcion` text NULL,
+	`imagen` varchar NOT NULL,
+	`precio` float ' at line 3 in C:\Users\Dulce Guzmán\Documents\apirest\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Dulce Guzmán\Documents\apirest\app\Database\Migrations\2023-10-28-223519_Productos.php(25): CodeIgniter\Database\Forge->createTable('productos', true)
+#5 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\MigrationRunner.php(873): App\Database\Migrations\Productos->up()
+#6 C:\Users\Dulce Guzmán\Documents\apirest\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Dulce Guzmán\Documents\apirest\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Dulce Guzmán\Documents\apirest\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Dulce Guzmán\Documents\apirest\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Dulce Guzmán\Documents\apirest\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}

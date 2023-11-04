@@ -1,0 +1,10 @@
+CRITICAL - 2023-11-04 03:30:40 --> Invalid file: "/layout/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/layout/header.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/layout/header', [], true)
+ 3 APPPATH\Controllers\ProductosController.php(38): view('/layout/header')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductosController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Dulce Guzmán\\Documents\\apirest\\public\\index.php')
